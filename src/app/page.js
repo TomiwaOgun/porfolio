@@ -6,8 +6,6 @@ import '../app/global.css';
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
-      
-
       {/* Main Content */}
       <div className="flex flex-col items-center justify-center p-8">
         <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 max-w-4x1 mx-auto flex flex-col md:flex-row items-center gap-8">
