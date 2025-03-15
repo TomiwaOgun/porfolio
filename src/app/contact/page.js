@@ -2,7 +2,10 @@ export default function Contact() {
     return (
       <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-bold text-center mb-8">Contact Me</h1>
-        <form className="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-6">
+        <form   
+          action="https://formspree.io/f/xeoaoero"
+          method="POST"
+          className="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-6">
           <div className="mb-6">
             <label htmlFor="name" className="block text-gray-700 mb-2">
               Name:
